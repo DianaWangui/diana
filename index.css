@@ -15,24 +15,13 @@ body {
     justify-content: space-between;
     margin-top: 10px;
     
+    padding: 15px;
+    padding-top: 0px;
+    
     
   }
   
-  .image {
-    display: flex;
-    width: 70px;
-    height: 70px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-right: 30px;
   
-  }
-  
-  .image img {
-    width: 100%;
-    height: auto;
-    margin: auto;
-  }
   
   .header-content ul {
     list-style: none;
@@ -56,6 +45,17 @@ body {
     font-weight: bold;
   
   }
+
+  .image {
+    text-align: center;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
   
   .footer {
     display: flex;
