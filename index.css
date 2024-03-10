@@ -20,9 +20,7 @@ body {
     
     
   }
-  
-  
-  
+
   .header-content ul {
     list-style: none;
     display: flex;
@@ -50,13 +48,18 @@ body {
     text-align: center;
 }
 
-.image img {
+    .image img {
     border-radius: 50%;
     width: 60px;
     height: 60px;
     object-fit: cover;
 }
-  
+  .name-career {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 200px;
+  }
   .footer {
     display: flex;
     flex-direction: row;
