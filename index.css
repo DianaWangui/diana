@@ -59,6 +59,15 @@ body {
     flex-direction: column;
     margin-left: 150px;
     margin-top: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .name-career h2 {
+    margin-left: 30px;
+    margin-top: 5px;
+    font-style: italic;
   }
   .footer {
     display: flex;
