@@ -69,9 +69,16 @@ body {
     font-style: italic;
   }
 
-  .myabout:hover, .myhome:hover, .myskills:hover, .myprojects:hover{
+  .myabout:hover, .myhome:hover, .myskills:hover, .myprojects:hover {
     color: red;
+    opacity: 0.6;
   }
+
+  .myabout:active, .myhome:active, .myskills:active, .myprojects:active {
+    color: rgb(109, 15, 15);
+    opacity: 0.5;
+  }
+
   .footer {
     display: flex;
     flex-direction: row;
